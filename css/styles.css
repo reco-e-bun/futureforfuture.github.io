@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Banner */
+.banner {
+    background: url('../images/background3_1.gif') no-repeat center center/cover;
+    background-attachment: fixed;
+    display: flex;
+    padding: 25vh 0;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+.banner-title {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.banner-subtitle {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+@media (max-width: 575px) {
+    .banner-title {
+        font-size: 45px;
+    }
+    .banner-subtitle {
+        font-size: 22px;
+    }
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #3a3d98, #181b47);
+    /* background-color: rgb(30, 30, 60); */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+/* Images */
+.round-img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Sections */
+.section-dark {
+    /* background-color: #181b47; */
+    /* background-color: #178eb5; */
+    background-color: #1778b5;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.section-light {
+    background-color: #f8f9fa;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 4vh;
+}
+
+.section-text {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(90deg, #3a3d98, #181b47);
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #181b47, #3a3d98);
+}
+
+/* Footer */
+footer {
+    background: #181b47;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #3a3d98;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.futuristic-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.futuristic-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.about-image {
+    margin-top: 3vh;
+    height: 40vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
