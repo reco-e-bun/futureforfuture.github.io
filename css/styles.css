@@ -6,7 +6,7 @@ body {
 
 /* Banner */
 .banner {
-    background: url('../images/background3_1.gif') no-repeat center center/cover;
+    background: url('https://media.githubusercontent.com/media/reco-e-bun/futureforfuture.github.io/main/images/background3_1.gif') no-repeat center center/cover;
     background-attachment: fixed;
     display: flex;
     padding: 25vh 0;
