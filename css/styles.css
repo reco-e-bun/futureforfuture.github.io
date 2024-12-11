@@ -29,7 +29,8 @@ body {
 
 .banner-subtitle {
     font-size: 1.8rem;
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-weight: bold;
 }
 
 @media (max-width: 575px) {
@@ -43,8 +44,8 @@ body {
 
 /* Navbar */
 .navbar {
-    background: linear-gradient(90deg, #3a3d98, #181b47);
-    /* background-color: rgb(30, 30, 60); */
+    /* background: linear-gradient(90deg, #3a3d98, #181b47); */
+    background-color: rgb(20, 20, 20);
 }
 
 .navbar-brand {
@@ -114,7 +115,8 @@ body {
 
 /* Footer */
 footer {
-    background: #181b47;
+    /* background: #181b47; */
+    background-color: rgb(20, 20, 20);
     color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
