@@ -15,10 +15,12 @@ body {
 
 @media (max-width: 575px) {
     .banner {
+        background: url('../images/background3_mobile.png') no-repeat center center/cover;
+    }
+    .banner {
         background-attachment: scroll;
     }
 }
-
 
 .banner-title {
     font-size: 6rem;
