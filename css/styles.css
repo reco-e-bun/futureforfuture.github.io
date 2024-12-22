@@ -9,14 +9,15 @@ body {
     background: url('../images/background3.png') no-repeat center center/cover;
     background-attachment: fixed;
     display: flex;
-    padding: 25vh 0;
+    padding: 5vh 0;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    height: 95vh;
 }
 
 @media (max-width: 575px) {
     .banner {
         background: url('../images/background3_mobile.png') no-repeat center center/cover;
-        padding: 25vh 0;
+        padding: 5vh 0;
         text-shadow: 0 2px 5px rgba(0, 0, 0, 1);
     }
 }
@@ -158,5 +159,73 @@ footer a:hover {
     margin-top: 3vh;
     height: 40vh;
     border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 7px 16px rgba(0, 0, 0, 0.5);
+}
+
+.in-view.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.in-view.slide-in {
+    position: relative;
+    opacity: 0;
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        left: -200px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+.in-view.fade1 {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.in-view.fade2 {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.in-view.fade3 {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@media (max-width: 575px) {
+    .in-view.fade2 {
+        animation-delay: 0.2s;
+    }
+    .in-view.fade2 {
+        animation-delay: 0.2s;
+    }
+    .in-view.fade3 {
+        animation-delay: 0.2s;
+    }
 }
