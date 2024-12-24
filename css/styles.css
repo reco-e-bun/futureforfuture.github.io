@@ -175,14 +175,15 @@ footer a:hover {
 }
 
 /* Animation */
-.in-view.fade {
-    animation-name: fade;
+.in-view.fade-in {
+    opacity: 0;
+    animation-name: fade-in;
     animation-duration: 2s;
     animation-delay: 0.4s;
     animation-fill-mode: forwards;
 }
 
-@keyframes fade {
+@keyframes fade-in {
     0% {
         opacity: 0;
     }
@@ -212,21 +213,24 @@ footer a:hover {
 }
 
 .in-view.fade1 {
-    animation-name: fade;
+    opacity: 0;
+    animation-name: fade-in;
     animation-duration: 1s;
     animation-delay: 0.3s;
     animation-fill-mode: forwards;
 }
 
 .in-view.fade2 {
-    animation-name: fade;
+    opacity: 0;
+    animation-name: fade-in;
     animation-duration: 1s;
     animation-delay: 0.8s;
     animation-fill-mode: forwards;
 }
 
 .in-view.fade3 {
-    animation-name: fade;
+    opacity: 0;
+    animation-name: fade-in;
     animation-duration: 1s;
     animation-delay: 1.3s;
     animation-fill-mode: forwards;
